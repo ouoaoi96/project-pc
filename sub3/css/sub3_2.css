@@ -1,0 +1,29 @@
+#content .record{width: 2000px; position: relative; left: 50%; transform: translateX(-50%); background: var(--color-point2); padding: 110px 0; text-align: center;}
+#content .record h3{font-size: var(--font-32-size); font-weight: 500; line-height: 140%; color: var(--color-sub1);}
+#content .record ul{width: 1000px; margin: 90px auto 0; display: flex; justify-content: space-between;}
+#content .record li{width: 300px; font-size: 1.5rem; font-weight: 300; color: var(--color-sub1);}
+#content .record li strong{font-size: var(--font-60-size); font-weight: 300; line-height: 100%;}
+#content .record li span{display: block; margin-top: 16px; font-size: var(--font-14-size); color: var(--color-font3);}
+
+#content .restore{width: 1400px; margin: 140px auto 0; padding-bottom: 140px;}
+#content .restore h3{font-size: var(--font-40-size); font-weight: 500; line-height: 140%; color: var(--color-font1); text-align: center;}
+#content .restore p{margin-top: 18px; font-size: var(--font-18-size); color: var(--color-font2); text-align: center;}
+#content .restore .acc{margin-top: 70px; border-top: 2px solid var(--color-point2);}
+#content .restore .acc li{border-bottom: 1px solid var(--color-sub2);}
+#content .restore .tit a{position: relative; display: flex; align-items: center; height: 92px; padding-left: 30px;}
+#content .restore .tit .num{width: 64px; font-size: var(--font-14-size); font-weight: 700; color: var(--color-point3);}
+#content .restore .tit strong{font-size: 1.25rem; font-weight: 700; color: var(--color-font1);}
+#content .restore .tit .sub{margin-left: 16px; font-size: var(--font-14-size); color: var(--color-font3);}
+#content .restore .tit .material-symbols-outlined{position: absolute; right: 40px; top: 50%; transform: translateY(-50%); color: var(--color-font3);}
+#content .restore .con{background: var(--color-sub1); padding: 40px 94px 50px; overflow: hidden;}
+#content .restore .con .pic{width: 260px; text-align: center; float: left;}
+#content .restore .con .pic img{width: 260px; height: 276px; vertical-align: top;}
+#content .restore .con .pic span{display: block; margin-top: 20px; font-size: var(--font-16-size); color: var(--color-font2);}
+#content .restore .con dl{width: 900px; float: right;}
+#content .restore .con dt{border-left: 2px solid var(--color-point3); padding-left: 24px; margin-bottom: 30px; font-size: 0.94rem; line-height: 180%; color: var(--color-font2);}
+#content .restore .con dt span{display: block; margin-top: 10px; font-size: 0.81rem; color: var(--color-font3);}
+#content .restore .con dd{font-size: var(--font-16-size); line-height: 180%; color: var(--color-font1);}
+#content .restore .con dd span{font-weight: 500; color: var(--color-main);}
+#content .restore .con{display: none;}
+#content .restore .show strong{color: var(--color-main);}
+#content .restore .show .material-symbols-outlined{color: var(--color-main);}

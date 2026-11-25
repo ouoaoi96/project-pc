@@ -1,0 +1,27 @@
+#content .love{width: 2000px; position: relative; left: 50%; transform: translateX(-50%); display: flex;}
+#content .love img{width: 1000px; height: 660px; object-fit: cover;}
+#content .love dl{width: 600px; height: 528px; background: var(--color-point2); padding: 132px 300px 0 100px;}
+#content .love dt{font-size: var(--font-40-size); font-weight: 300; color: #fff; line-height: 1.35; margin-bottom: 40px;}
+#content .love dt strong{font-weight: 700; color: var(--color-point3);}
+#content .love dd{font-size: var(--font-16-size); color: rgba(255,255,255,.72); line-height: 1.95; margin-bottom: 26px;}
+#content .quote{width: 1400px; text-align: center; margin: 0 auto; padding: 150px 0;}
+#content .quote p{font-size: var(--font-40-size); font-weight: 300; color: var(--color-font1); line-height: 1.55;}
+#content .quote strong{font-weight: 600;}
+#content .quote p:last-of-type{font-size: var(--font-16-size); color: var(--color-font3); margin-top: 46px; letter-spacing: 0.05em;}
+#content .place{width: 2000px; position: relative; left: 50%; transform: translateX(-50%); background: var(--color-sub1); padding: 130px 0 160px 0;}
+#content .place p{width: 1400px; margin: 0 auto; font-size: var(--font-40-size); font-weight: 400; line-height: 1;}
+#content .place img{width: 900px; height: 480px; margin: 80px 0 0 300px;}
+#content .place dl{position: absolute; left: 960px; top: 370px; width: 620px; background: #fff; padding: 56px 60px;}
+#content .place dt{font-size: var(--font-32-size); font-weight: 400; color: var(--color-font1); margin-bottom: 24px;}
+#content .place dd{font-size: var(--font-16-size); color: var(--color-font2); line-height: 1.95;}
+#content .promise{width: 1400px; margin: 0 auto; padding: 145px 0 140px 0;}
+#content .promise p{text-align: center; font-size: var(--font-40-size); font-weight: 500; color: var(--color-font1); line-height: 1;}
+#content .promise p:last-of-type{font-size: var(--font-18-size); font-weight: 400; color: var(--color-font2); margin-top: 31px;}
+#content .promise ul{display: flex; justify-content: space-between; margin-top: 78px;}
+#content .promise li{width: 420px;}
+#content .promise dl{position: relative; padding-top: 86px;}
+#content .promise dl::before{content: '01'; position: absolute; left: 0; top: 0; font-size: 7.5rem; font-weight: 700; color: var(--color-sub2); line-height: 1; z-index: -1;}
+#content .promise li:nth-child(2) dl::before{content: '02';}
+#content .promise li:nth-child(3) dl::before{content: '03';}
+#content .promise dt{font-size: 1.3125rem; font-weight: 500; color: var(--color-font1); line-height: 1.57;}
+#content .promise dd{font-size: var(--font-14-size); color: var(--color-font2); line-height: 2.2; margin-top: 25px;}

@@ -1,0 +1,27 @@
+/* 국순당역사 본문영역 */
+
+#content .content_area .tab{display: flex; justify-content: center; gap: 14px;}
+#content .content_area .tab a{display: block; padding: 11px 26px; border-radius: 30px; font-size: var(--font-18-size); color: #bbb; transition: all .5s;}
+
+/* 상단에 고정 sticky menu */
+#content .content_area .navOn{position: fixed; width: 100%; z-index:100; left:0; top: 0;
+background: #fff; border-bottom: 1px solid #ccc;
+        padding: 15px 0;}
+#content .content_area .navOn .tab{margin: 0; padding: 0;}
+
+/* 메뉴 활성화  scroll spy */
+#content .content_area .navBox ul li a.spy{background: var(--color-point2); color:orange; font-weight: 600;}
+#content .content_area section{padding-top: 100px;}
+#content .content_area section img{display: block; width: 1200px; height: 520px; object-fit: cover; border-radius: 24px; margin: 0 auto;}
+#content .content_area section > div{position: relative; margin-top: 90px;}
+#content .content_area section > div::after{content: ''; position: absolute; left: 382px; top: 0; width: 2px; height: 100%; background: #e8e8e8;}
+#content .content_area section h3{position: absolute; left: 0; top: 0; width: 382px; text-align: center; font-size: var(--font-32-size); font-weight: 700;}
+#content .content_area section li{padding-left: 440px; margin-bottom: 60px;}
+#content .content_area section li:last-child{margin-bottom: 0;}
+#content .content_area section dt{position: relative; font-size: 1.75rem; font-weight: 700; margin-bottom: 26px;}
+#content .content_area section dt::before{z-index: 1; content: ''; position: absolute; left: -64px; top: 8px; width: 13px; height: 13px; border-radius: 50%; background: #ddd;}
+#content .content_area section li:first-child dt::before{background: var(--color-main);}
+#content .content_area section dd{padding-left: 68px; position: relative; font-size: 1.06rem; line-height: 1.7; color: var(--color-font2); margin-bottom: 14px;}
+#content .content_area section dd span{display: inline-block; width: 52px; color: var(--color-point3); font-weight: 700;}
+#content .content_area section dd::before{content: ''; position: absolute; top: 11px; left: 56px; width: 4px; height: 4px; border-radius: 50%; background: var(--color-font3);}
+#content .content_area{padding-bottom: 180px;}

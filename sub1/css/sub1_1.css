@@ -1,0 +1,31 @@
+/* 사업소개의 본문 영역 */
+
+#content .title_area{padding-bottom: 0;}
+#content .title_area h2 span{font-weight: bold;}
+#content .title_area p, #content .content_area > p{width: 1080px; margin: 0 auto 40px; line-height: 2;}
+#content .content_area .value{display: flex; justify-content: space-between; margin-top: 180px;}
+#content .content_area .value li{width: 413px; border-top: 2px solid var(--color-point3); padding-top: 34px;}
+#content .content_area .value span{display: block; color: var(--color-point3); font-weight: normal; font-size: var(--font-14-size);}
+#content .content_area .value dt{font-size: 1.25rem; font-weight: 700; margin-bottom: 18px;}
+#content .content_area .value dd{font-size: 1rem; line-height: 1.9; color: var(--color-font2); text-align: justify;}
+
+
+#content .content_area .story{margin-top: 200px;}
+#content .content_area .story li{display: flex; align-items: center; justify-content: space-between; margin-bottom: 150px;}
+#content .content_area .story li:last-child{flex-direction: row-reverse; background: url(../images/sub1/text.jpg) no-repeat; background-position: right top; background-size: 390px auto;}
+#content .content_area .story dl{width: 650px;}
+#content .content_area .story img{width: 600px; height: 480px; object-fit: cover; border-radius: 160px 0 0 160px;}
+#content .content_area .story li:last-child img{border-radius: 0 160px 160px 0;}
+#content .content_area .story dt{font-size: 2.5rem; font-weight: 700; line-height: 1.4; margin-bottom: 34px;}
+#content .content_area .story dd{font-size: 1.06rem; line-height: 2; color: var(--color-font2); margin-bottom: 24px;}
+
+#content .content_area .quote {text-align: center; transform: translateY(-200px); margin-bottom: -100px;}
+#content .content_area .quote img{width: 280px; height: 340px; border-radius: 140px 140px 0 0;}
+#content .content_area .quote p{font-size: var(--font-32-size); font-weight: 300; line-height: 1.6; margin-bottom: 40px; margin-top: 30px;}
+#content .content_area .quote > span{width: 150px; display: block; margin: 0 auto; font-size: 13px; letter-spacing: 0.2em; color: var(--color-point3); border: 1px solid var(--color-point3); padding: 10px 22px;}
+#content .content_area .quote p span{font-weight: 700; color: var(--);}
+/* h2	50px / 굵기 300 / 가운데 정렬
+h2 span	굵기 700
+p	17px / 줄간격 2.1 / #666 / 가운데 정렬
+p 폭	1080, 가운데
+문단 사이	30 */

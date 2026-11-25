@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="665" height="420" viewBox="0 0 665 420">
+<rect x="0" y="0" width="665" height="420" rx="4" fill="#FAFAFA"/>
+<text x="32" y="38" font-family="Noto Sans KR, sans-serif" font-size="16" font-weight="700" fill="#333333">주질 향상 비교</text>
+<rect x="32" y="58" width="12" height="12" rx="2" fill="#E67300"/>
+<text x="50" y="68" font-family="Noto Sans KR, sans-serif" font-size="12" fill="#666666">설갱미</text>
+<rect x="112" y="58" width="12" height="12" rx="2" fill="#6E655C"/>
+<text x="130" y="68" font-family="Noto Sans KR, sans-serif" font-size="12" fill="#666666">일반미</text>
+<polygon points="332.0,140.0 438.5,217.4 397.8,342.6 266.2,342.6 225.5,217.4" fill="none" stroke="#E4DED6" stroke-width="1"/>
+<polygon points="332.0,177.3 403.0,228.9 375.9,312.4 288.1,312.4 261.0,228.9" fill="none" stroke="#E4DED6" stroke-width="1"/>
+<polygon points="332.0,214.7 367.5,240.5 353.9,282.2 310.1,282.2 296.5,240.5" fill="none" stroke="#E4DED6" stroke-width="1"/>
+<line x1="332.0" y1="252.0" x2="332.0" y2="140.0" stroke="#EFEAE4" stroke-width="1"/>
+<line x1="332.0" y1="252.0" x2="438.5" y2="217.4" stroke="#EFEAE4" stroke-width="1"/>
+<line x1="332.0" y1="252.0" x2="397.8" y2="342.6" stroke="#EFEAE4" stroke-width="1"/>
+<line x1="332.0" y1="252.0" x2="266.2" y2="342.6" stroke="#EFEAE4" stroke-width="1"/>
+<line x1="332.0" y1="252.0" x2="225.5" y2="217.4" stroke="#EFEAE4" stroke-width="1"/>
+<polygon points="332.0,162.4 374.6,238.2 386.0,326.3 280.7,322.7 252.1,226.0" fill="#6E655C" fill-opacity="0.10" stroke="#6E655C" stroke-width="2"/>
+<polygon points="332.0,212.8 427.9,220.9 351.7,279.2 313.6,277.4 300.0,241.6" fill="#E67300" fill-opacity="0.12" stroke="#E67300" stroke-width="2"/>
+<text x="332" y="126" text-anchor="middle" font-family="Noto Sans KR, sans-serif" font-size="12" fill="#666666">향의 강도</text>
+<text x="450" y="221" text-anchor="start" font-family="Noto Sans KR, sans-serif" font-size="12" fill="#666666">부드러운 맛</text>
+<text x="424" y="372" text-anchor="middle" font-family="Noto Sans KR, sans-serif" font-size="12" fill="#666666">쓴 맛</text>
+<text x="240" y="372" text-anchor="middle" font-family="Noto Sans KR, sans-serif" font-size="12" fill="#666666">떫은 맛</text>
+<text x="214" y="221" text-anchor="end" font-family="Noto Sans KR, sans-serif" font-size="12" fill="#666666">느끼한 맛</text>
+</svg>

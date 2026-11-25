@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사소개:오시는길</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src="https://kit.fontawesome.com/486f5e5f33.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="./css/sub1_common.css">
+    <link rel="stylesheet" href="./css/sub1_3.css">
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e11f93f5841539f8af4c5d26a911f3fd"></script>
+    <script src="./js/map2.js"></script>
+</head>
+
+<body>
+    <div id="skipNav">
+        <a href="#content">본문바로가기</a>
+        <a href="#gnb">내비게이션 바로가기</a>
+    </div>
+    <div id="wrap">
+        <h1 class="hidden">국순당</h1>
+        <header id="headerArea">
+         </header>
+
+        <div class="visual">
+            <img src="./images/common/filed.jpg" alt="회사소개">
+            <strong>술을 빚기 전에<br><span>사람을 먼저 생각합니다</span></strong>
+            <p>국순당은 술을 빚기 전에 먼저 사람을 생각하는 마음으로 우리술 문화를 되살리며,<br>한국을 대표하는 세계적 명주를 만들기 위해 노력하고 있습니다.</p>
+        </div>
+
+        <div class="sub_nav">
+            <ul>
+                <li><a href="./sub1_1.html">국순당소개</a></li>
+                <li><a href="./sub1_2.html">국순당역사</a></li>
+                <li><a class="active" href="./sub1_3.html">오시는길</a></li>
+            </ul>
+        </div>
+
+        <main id="content">
+            <article>
+
+                <section class="title_area">
+                    <div class="line_map">
+                        HOME &gt; 회사소개 &gt; <strong>오시는길</strong>
+                    </div>
+                    <span class="eng">LOCATION</span>
+                    <h2>국순당을<br><span>찾아오시는 길</span></h2>
+                    <p>국순당 본사와 서울사무소, 연구소의 위치와 교통편을 안내해 드립니다.</p>
+                </section>
+                <div class="content_area">
+                    <ul class="place_tab">
+                        <li><a href="./sub1_3.html">본사</a></li>
+                        <li><a href="./sub1_3_2.html" class="active">서울사무소</a></li>
+                    </ul>
+                    <section>
+                        <h3 class="hidden">서울사무소</h3>
+                        <div id="map">
+                        </div>
+                        <div class="info" data-aos="fade-up" data-aos-duration="1500">
+                            <div>
+                            <strong>서울사무소</strong>
+                            <ul>
+                                <li><span>ADDRESS</span>서울특별시 강남구 봉은사로 641<br>(지번) 서울시 강남구 삼성동 110-3 국순당빌딩</li>
+                                <li><span>TEL</span>02-513-8500</li>
+                                <li><span>FAX</span>02-402-5210</li>
+                            </ul>
+                            </div>
+                            <div>
+                                <strong>교통편</strong>
+                                <ul>
+                                    <li><span>지하철</span><em class="line num l9">9</em>봉은사역 4번 출구 → 450m 직진</li>
+                                    <li><span></span><em class="line num l2">2</em>삼성역 7번 출구 → <em class="line pill bus">마을 1</em><em class="line pill bus">3417</em>승차 → 노블발렌티 웨딩홀 앞 하차</li>
+                                    <li><span>자가용</span>경부고속도로 반포 IC 종합운동장 방향 직진 → 교보생명 → 차병원 → 봉은사 → 아셈타워 직진 → 국순당</li>
+                                    <li><span></span>서울 서부·강북 올림픽대로 영동대교 남단 입체교차로에서 무역센터 방향 → 홍실아파트 → 아셈타워 앞 봉은사 사거리 좌회전 → 국순당</li>
+                                    <li><span></span>서울 동남부 삼성역 무역센터 교차로에서 영동대교 방향 → 아셈타워 앞 봉은사 사거리 우회전 → 국순당</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+
+
+            </article>
+        </main>
+
+
+
+        <footer id="footerArea">
+          </footer>
+
+
+
+    </div>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery-migrate-1.4.1.min.js"></script>
+    <script>
+        $('#headerArea').load('../common/sub_header.html',function(){
+             //function(){} -> sub_header.html의 로드가 완료가 되면...
+             $.getScript('../js/fullnav.js');  //스크립트 js파을을 동작시키는 메소드
+        });
+
+        $('#footerArea').load('../common/sub_footer.html',function(){
+            $.getScript('../js/select.js'); 
+        });
+  </script>
+    <script src="../js/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+{
+    "product": [
+        {"Name":"백세주","Spec":"375ml · 13도","Cate":"bsj","Descript":"열두 가지 좋은 약재를 생쌀발효법으로 빚어 뒤끝이 없습니다.","Image":"./images/bsj.jpg"},
+        {"Name":"백세주 과하","Spec":"375ml · 13도","Cate":"bsj","Descript":"여름을 넘긴다는 뜻의 과하주에서 이름을 따온 가벼운 백세주입니다.","Image":"./images/bsj_kwaha.png"},
+        {"Name":"백세주 담","Spec":"375ml · 13도","Cate":"bsj","Descript":"열두 가지 재료의 비중을 조절해 한결 부드러운 맛을 냈습니다.","Image":"./images/bsj_dam.jpg"},
+        {"Name":"강장 백세주","Spec":"700ml · 15도","Cate":"bsj","Descript":"찹쌀과 열 가지 한약재로 빚어 깊고 진한 맛을 냈습니다.","Image":"./images/bsj_gangjang.png"},
+        {"Name":"자양 백세주","Spec":"375ml · 15도","Cate":"bsj","Descript":"6년근 홍삼과 숙지황을 넣어 30일 저온숙성한 프리미엄 약주입니다.","Image":"./images/bsj_jayang.png"},
+        {"Name":"국순당 생막걸리","Spec":"750ml · 6도","Cate":"mgl","Descript":"발효제어기술로 살아있는 효모를 그대로 담았습니다.","Image":"./images/mgl_saeng.jpg"},
+        {"Name":"대박 막걸리","Spec":"700ml · 6도","Cate":"mgl","Descript":"전통누룩과 막걸리 전용 효모로 빚어 본연의 맛을 살렸습니다.","Image":"./images/mgl_daebak.jpg"},
+        {"Name":"옛날 막걸리","Spec":"750ml · 7.6도","Cate":"mgl","Descript":"누룩을 세 배 이상 써서 맛과 향이 진하고 구수합니다.","Image":"./images/mgl_yetnal.png"},
+        {"Name":"1000억 유산균","Spec":"750ml · 5도","Cate":"mgl","Descript":"한 병에 1000억 마리의 유산균이 살아 있는 막걸리입니다.","Image":"./images/mgl_1000.jpg"},
+        {"Name":"국순당 쌀막걸리","Spec":"750ml · 5.8도","Cate":"mgl","Descript":"국내산 쌀로만 빚어 깔끔하고 담백합니다.","Image":"./images/mgl_ssal.png"},
+        {"Name":"국순당 첫술","Spec":"750ml · 7도","Cate":"mgl","Descript":"일 년에 한 번, 첫 수확한 햅쌀로 빚는 한정판 생막걸리입니다.","Image":"./images/mgl_cheotsul.jpg"},
+        {"Name":"예담","Spec":"700ml · 12도","Cate":"yd","Descript":"600년 전통의 종묘대제에서 비롯된 우리 차례주입니다.","Image":"./images/yedam.png"},
+        {"Name":"송절주","Spec":"550ml · 16.5도","Cate":"bg","Descript":"소나무 마디로 빚어 독특한 솔향기와 쌉싸름한 맛이 뛰어납니다.","Image":"./images/songjeolju.png"},
+        {"Name":"자주","Spec":"550ml · 17도","Cate":"bg","Descript":"맑은 술에 꿀과 후추를 중탕해 매콤하고 시원한 풍미가 독특합니다.","Image":"./images/jaju.jpg"},
+        {"Name":"청감주","Spec":"550ml · 11.5도","Cate":"bg","Descript":"빛깔이 맑고 단맛이 좋으며 도수가 낮아 마시기 편합니다.","Image":"./images/cheonggamju.png"},
+        {"Name":"이화주","Spec":"400ml · 12.5도","Cate":"bg","Descript":"숟가락으로 떠먹을 만큼 걸쭉한 고려시대 최고급 탁주입니다.","Image":"./images/ihwaju.jpg"},
+        {"Name":"사시통음주","Spec":"500ml · 15도","Cate":"bg","Descript":"높은 도수에도 부드러운 감칠맛과 신맛이 입맛을 당깁니다.","Image":"./images/sasitongeumju.png"}
+    ]
+}

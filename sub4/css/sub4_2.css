@@ -1,0 +1,24 @@
+#content .basic{width: 1400px; margin: 0 auto; padding: 100px 0 130px 0;}
+#content .basic h3{font-size: var(--font-32-size); font-weight: 600; color: var(--color-font1); line-height: 1;}
+#content .basic p{font-size: var(--font-18-size); color: var(--color-font2); line-height: 1; margin-top: 42px;}
+#content .basic img{width: 1400px; height: 420px; background: var(--color-sub1); object-fit: none; display: block; margin-top: 80px;}
+#content .color{width: 2000px; position: relative; left: 50%; transform: translateX(-50%); background: var(--color-point2); padding: 105px 0 130px 0;}
+#content .color h3, #content .color p, #content .color .palette{width: 1400px; margin: 0 auto}
+#content .color h3{font-size: var(--font-32-size); font-weight: 600; color: #fff; line-height: 1;}
+#content .color p{font-size: var(--font-18-size); color: rgba(255,255,255,.75); line-height: 1; margin-top: 42px;}
+#content .color .palette{display: flex; justify-content: space-between; margin-top: 61px;}
+#content .color .palette > li{width: 440px;}
+#content .color .palette > li > span:first-of-type{display: block; width: 440px; height: 260px; background: #3E2D18;}
+#content .color .palette > li > span:last-of-type{display: block; font-size: var(--font-18-size); color: #fff; line-height: 1; margin-top: 22px;}
+#content .color .palette > li:nth-child(2) > span:first-of-type{background: #fff;}
+#content .color .palette li ul{margin-top: 26px;}
+#content .color .palette li ul li{display: flex; margin-bottom: 14px;}
+#content .color .palette li ul strong{width: 120px; font-size: var(--font-14-size); font-weight: 400; color: var(--color-point3);}
+#content .color .palette li ul span{font-size: var(--font-14-size); color: rgba(255,255,255,.7);}
+#content .color .palette p{width: 440px; font-size: var(--font-14-size); color: rgba(255,255,255,.65); line-height: 1.8; margin-top: 20px;}
+#content .apply{width: 1400px; margin: 0 auto; padding: 146px 0 144px 0;}
+#content .apply h3{font-size: var(--font-32-size); font-weight: 600; color: var(--color-font1); line-height: 1;}
+#content .apply p{font-size: var(--font-18-size); color: var(--color-font2); line-height: 1; margin-top: 41px;}
+#content .apply .list{display: flex; justify-content: space-between; margin-top: 73px;}
+#content .apply .list img{width: 335px; height: 332px; border: 1px solid var(--color-sub2); object-fit: none; display: block;}
+#content .apply .list span{display: block; text-align: center; font-size: var(--font-16-size); color: var(--color-font2); margin-top: 22px;}

@@ -1,0 +1,21 @@
+#content .process{width: 1400px; margin: 0 auto; padding-bottom: 140px; text-align: center;}
+#content .process h3{font-size: var(--font-32-size); font-weight: 500; line-height: 140%;}
+#content .process .eng{display: block; margin-bottom: 16px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.2em; color: var(--color-point3);}
+#content .process_list{margin-top: 80px; display: flex; justify-content: space-between; position: relative;}
+#content .process_list li{width: 200px;}
+#content .process_list::before{content: ""; position: absolute; left: 100px; top: 100px; width: 1200px; height: 1px; background: var(--color-sub2);}
+#content .process_list dt{position: relative; width: 200px; height: 200px; padding-top: 64px; box-sizing: border-box; border: 1px solid var(--color-sub2); border-radius: 50%; background: #fff; font-size: 1.38rem; font-weight: 700; line-height: 140%;}
+#content .process_list .num{display: block; margin-bottom: 8px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.2em; color: var(--color-point3);}
+#content .process_list li:nth-child(5) dt{background: var(--color-point2); border-color: var(--color-point2); color: #fff;}
+#content .process_list dd{margin-top: 28px; font-size: var(--font-14-size); line-height: 180%; color: var(--color-font2);}
+#content .guide{background: var(--color-sub1); padding: 120px 0; text-align: center;}
+#content .guide h3{font-size: var(--font-32-size); font-weight: 500; line-height: 140%;}
+#content .guide .eng{display: block; margin-bottom: 16px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.2em; color: var(--color-point3);}
+#content .guide p{margin-top: 16px; font-size: var(--font-16-size); line-height: 180%; color: var(--color-font2);}
+#content .guide_list{width: 1400px; margin: 50px auto 0; display: flex; justify-content: space-between; text-align: left;}
+#content .guide_list li{width: 440px; padding: 40px; box-sizing: border-box; border-top: 3px solid var(--color-point2); background: #fff;}
+#content .guide_list dt{padding-bottom: 20px; border-bottom: 1px solid var(--color-sub2); font-size: 1.38rem; font-weight: 700; line-height: 140%;}
+#content .guide_list .label{display: block; margin-bottom: 10px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.2em; color: var(--color-point3);}
+#content .guide_list dd{margin-top: 20px; font-size: 0.94rem; line-height: 180%; color: var(--color-font2);}
+#content .guide_list .point{font-weight: 700; color: var(--color-font1);}
+#content .faq_btn{width: 240px; height: 52px; margin: 80px auto 140px; box-sizing: border-box; border: 1px solid var(--color-point2); border-radius: 26px; line-height: 50px; text-align: center; font-size: 0.94rem; font-weight: 500;}

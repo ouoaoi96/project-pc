@@ -1,0 +1,41 @@
+/* 오시는길 본문영역 */
+
+
+#content .content_area .place_tab{display: flex; gap: 10px; margin-bottom: 60px;}
+#content .content_area .place_tab a{text-align: center; padding: 22px 0; border: 1px solid #ddd; color: var(--color-font2); font-size: 1.25rem;}
+#content .content_area .place_tab .active{background: var(--color-point2); border-color: var(--color-point2); font-weight: 700; color: #fff;}
+#content .content_area .place_tab li{width: 695px;}
+
+/* 탭 : 처음엔 본사만 보이기 */
+#content .content_area .place{display: none;}
+#content .content_area .place.on{display: block;}
+
+/* 지도 아래 여백 */
+#content .content_area #map1, #content .content_area #map2{margin-bottom: 80px;
+     width: 1400px; height: 600px;}
+
+/* 정보 2칸 : 왼쪽 500 + 간격 100 + 오른쪽 800 = 1400 */
+#content .content_area .info{display: flex; gap: 100px; padding-bottom: 150px;}
+#content .content_area .info > div{width: 500px;}
+#content .content_area .info > div:last-child{width: 800px;}
+
+/* 칸 제목 (본사 / 교통편) */
+#content .content_area .info strong{display: block; font-size: 1.75rem; font-weight: 700; padding-bottom: 24px; margin-bottom: 34px; border-bottom: 2px solid var(--color-point2);}
+
+/* 목록 : 라벨을 왼쪽에 띄우고 본문은 그만큼 들여쓰기 */
+#content .content_area .info li{position: relative; padding-left: 90px; margin-bottom: 18px; font-size: var(--font-16-size); line-height: 1.9; color: var(--color-font2);}
+#content .content_area .info span{position: absolute; left: 0; top: 4px; font-size: var(--font-14-size); font-weight: 700; letter-spacing: 0.1em; color: var(--color-point3);}
+
+/* 교통편 칸은 라벨이 길어서 더 넓게 */
+#content .content_area .info > div:last-child li{padding-left: 140px; margin-bottom: 22px;}
+#content .content_area .info > div:last-child li ul li{padding-left:0;}
+#content .content_area section:last-child .info > div:last-child>ul>li{padding-left: 90px;}
+
+/* 지하철·버스 노선색 (서울시 공식 색상) */
+:root{--line-2: #00A23F; --line-9: #A49D87; --bus-sub: #53B332;}
+#content .content_area .info .line{display: inline-block; height: 26px; line-height: 26px; margin-right: 10px; padding: 0; color: #fff; font-size: var(--font-14-size); font-weight: 700; font-style: normal; text-align: center; vertical-align: 2px;}
+#content .content_area .info .num{width: 26px; border-radius: 50%;}
+#content .content_area .info .pill{padding: 0 12px; border-radius: 13px;}
+#content .content_area .info .l2{background: var(--line-2);}
+#content .content_area .info .l9{background: var(--line-9);}
+#content .content_area .info .bus{background: var(--bus-sub);}

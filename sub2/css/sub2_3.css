@@ -1,0 +1,61 @@
+#content .key_visual{width: 2000px; position: relative; left: 50%; transform: translateX(-50%);background: var(--color-sub1); padding: 80px 0 45px; }
+#content .key_visual .lead{font-size: var(--font-32-size); font-weight: 400; text-align: center; line-height: 1.5; color: var(--color-font1);}
+#content .key_visual .lead span{color: var(--color-main);}
+#content .key_visual .sub{font-size: var(--font-16-size); text-align: center; color: var(--color-font2); margin-top: 30px; margin-bottom: 115px;}
+#content .key_visual ul{display: flex; justify-content: space-between; width: 769px; margin: auto;}
+#content .key_visual ul li img{border-radius: 50%; width: 240px; height: 240px;}
+#content .key_visual ul li span{text-align: center; display: block; margin-top: 20px;}
+#content .key_visual ul li a.active span{color: var(--color-main); width: 230px; border-bottom: 2px solid var(--color-main); margin: 20px auto 0;}
+#content .tab_content>section{display: none; }
+#content section h3{font-size: var(--font-40-size); font-weight: 400; color: var(--color-font1);}
+#content #tab1 > p , #content #tab2 > p{font-size: var(--font-18-size); color: var(--color-font2); padding-bottom: 26px; border-bottom: 1px solid var(--color-font1);}
+#content .compare{display: flex; justify-content: space-between; padding-top: 50px;}
+#content .compare > div, #content .compare > dl{width: 665px;}
+#content .compare img{width: 665px; height: 400px; object-fit: cover;}
+#content .compare span{display: block; margin: 15px 0; font-size: var(--font-14-size); color: var(--color-font3);}
+#content .compare dt{font-size: var(--font-18-size); color: var(--color-font1); margin-bottom: 38px; font-weight: 500;}
+#content .compare dd{font-size: var(--font-16-size); color: var(--color-font2); line-height: 1.9; margin-bottom: 20px;}
+#content .compare dd:last-of-type{width: 373px; height: 77px; border: 1px solid var(--color-point3); line-height: 77px; padding-left: 14px;}
+#content .compare dd:last-of-type span{display: inline-block; color: var(--color-point3); letter-spacing: 0.2em; margin: 0 20px 0 0;}
+#content #tab1, #content #tab2{width: 1400px; margin: 0 auto 100px; padding-top: 80px;}
+#content #tab1 h4, #content #tab2 h4{font-size: var(--font-32-size); color: var(--color-font1); padding-top: 100px; font-weight: 400;}
+#content .nutrition p{font-size: var(--font-18-size); color: var(--color-font2); padding-top: 20px; margin-bottom: 37px;}
+#content .nutrition table{width: 1400px; border-collapse: collapse; border-top: 1px solid var(--color-font1);}
+#content .nutrition th, #content .nutrition td{height: 62px; border-bottom: 1px solid var(--color-sub2); text-align: left; }
+#content .nutrition th:nth-child(1){width: 113px;}
+#content .nutrition th:nth-child(2){width: 508px;}
+#content .nutrition th:nth-child(3){width: 390px;}
+#content .nutrition th{font-size: var(--font-14-size); color: var(--color-font3);}
+#content .nutrition td:nth-child(2){font-size: var(--font-14-size); color: var(--color-font3);}
+#content .nutrition td:nth-child(3), #content .nutrition td:nth-child(4){font-size: 1.5rem;}
+#content .nutrition td:nth-child(3){color: var(--color-point1);}
+#content .quality{display: flex; justify-content: space-between; padding-top: 44px; align-items: center;}
+#content .quality img{width: 665px; height: 420px;background: var(--color-sub1);}
+#content .quality ul{width: 665px;}
+#content .quality li{font-size: var(--font-16-size); margin-bottom: 46px;}
+#content .quality li strong{color: var(--color-font1); font-weight: 600;}
+#content .intro{position: relative; padding-top: 50px; height: 388px;}
+#content .intro p{width: 665px; font-size: var(--font-16-size); color: var(--color-font2); line-height: 1.9; margin-bottom: 38px}
+#content .intro img{position: absolute; right: 0; top: 50px; width: 665px; height: 388px; object-fit: cover;}
+#content .intro p:first-of-type{font-size: var(--font-18-size); color: var(--color-font1); border-left: 3px solid var(--color-point3); padding-left: 27px; margin-bottom: 33px;}
+#content .intro p:nth-of-type(2) span{color: var(--color-font1); font-weight: 600;}
+#content .intro p:first-of-type span{margin-left: 15px; font-size: var(--font-14-size);}
+#content .merit p{color : var(--color-font2); font-size: var(--font-18-size); padding: 20px 0 38px 0;}
+#content .merit ul{display: flex; justify-content: space-between; border-bottom: 1px solid var(--color-sub2); padding-bottom: 80px;}
+#content .merit li{width: 335px; height: 251px; border: 1px solid var(--color-sub2); background: var(--color-sub1); border-radius: 8px; text-align: center; padding-top: 45px;}
+#content .merit dt{color: var(--color-main); font-weight: 600; padding-bottom: 31px;}
+#content .merit dd{font-size: var(--font-14-size); color: var(--color-font2); line-height: 1.93;}
+#content .merit .graph{margin-top: 49px; padding: 40px; border: 1px solid var(--color-sub2); border-radius: 8px;}
+#content .merit .graph h5{font-size: var(--font-18-size); font-weight: 700; line-height: 140%; color: var(--color-font1);}
+#content .merit .graph p{padding: 8px 0 0; font-size: var(--font-14-size); line-height: 160%; color: var(--color-font3);}
+#content .merit .graph_box{height: 420px; margin-top: 30px;}
+#content .merit .graph .source{padding-top: 24px; font-size: 0.75rem;}
+#content .farm{width: 2000px; height: 340px; position: relative; overflow: hidden; left: 50%; transform: translateX(-50%); background: url(../images/sool_field.jpg) no-repeat center; background-size: cover;}
+#content .farm::before{content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: linear-gradient(90deg, rgba(46,37,33,.88) 0%, rgba(46,37,33,.25) 100%);}
+#content .farm div{width: 700px; position: absolute; left: 300px; top: 94px;}
+#content .farm h3{color: #fff; line-height: 1}
+#content .farm p{font-size: var(--font-16-size); color: rgba(255,255,255,.75); line-height: 1.75; margin-top: 28px;} 
+#content .farm ul{position: absolute; left: 1013px; top: 133px; z-index: 2; display: flex; gap: 80px;}
+#content .farm li strong{font-size: 3.5rem ; color: var(--color-point3); font-weight: 200; line-height: 1;}
+#content .farm li{color: #fff; font-size: 1.25rem;}
+#content .farm li span{display: block; font-size: var(--font-14-size); color: rgba(255,255,255,.6); margin-top: 5px;}

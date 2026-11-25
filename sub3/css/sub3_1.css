@@ -1,0 +1,25 @@
+#content .info{width: 1400px; margin: 0 auto; display: flex; justify-content: space-between;}
+#content .info img{width: 600px;}
+#content .info .info_txt{width: 700px;}
+#content .info .since{display: inline-block; height: 36px; line-height: 36px; padding: 0 16px; background: var(--color-point2); color: var(--color-sub1); font-size: var(--font-14-size); font-weight: 700;}
+#content .info h3{margin-top: 36px; font-size: var(--font-40-size); font-weight: 700; line-height: 140%; color: var(--color-font1);}
+#content .info p{margin-top: 6px; font-size: var(--font-16-size); line-height: 200%; color: var(--color-font2);}
+#content .info .spec{margin-top: 44px; border-top: 1px solid var(--color-sub2);}
+#content .info .spec li{position: relative; padding: 22px 0 22px 150px; border-bottom: 1px solid var(--color-sub2); font-size: var(--font-16-size); line-height: 170%; color: var(--color-font2);}
+#content .info .spec li span{position: absolute; left: 0; top: 22px; font-weight: 500; color: var(--color-font1);}
+
+#content .herb{margin-top: 160px; width: 2000px; position: relative; left: 50%; transform: translateX(-50%); background: var(--color-sub1); padding: 104px 0 84px; 	text-align: center;}
+#content .herb h3{font-size: var(--font-32-size); font-weight: 500; line-height: 140%; color: var(--color-point2);}
+#content .herb p{margin-top: 16px; font-size: var(--font-14-size); color: var(--color-font2);}
+#content .herb ul{width: 1400px; margin: 80px auto 0; padding: 52px 0; border-top: 1px solid var(--color-sub2); border-bottom: 1px solid var(--color-sub2); display: flex; justify-content: center;}
+#content .herb li{font-size: 1.5rem; font-weight: 500; color: var(--color-font1);}
+#content .herb li::before{content: '·'; margin: 0 14px; color: var(--color-point3);}
+#content .herb li:first-child::before{display: none;}
+
+#content .story{width: 1400px; margin: 120px auto 0; display: flex; justify-content: space-between; padding-bottom: 130px;}
+#content .story h3{font-size: var(--font-32-size); font-weight: 500; line-height: 140%; color: var(--color-font1);}
+#content .story .eng{display: block; margin-bottom: 24px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.2em; color: var(--color-point3);}
+#content .story ul{width: 860px;}
+#content .story li{margin-top: 26px; font-size: var(--font-16-size); line-height: 210%; color: var(--color-font2);}
+#content .story li:first-child{margin-top: 0;}
+#content .story li span{color: var(--color-point1);}

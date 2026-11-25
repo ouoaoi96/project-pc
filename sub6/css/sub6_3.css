@@ -1,0 +1,29 @@
+#content .faq{width: 1400px; margin: 0 auto; padding-bottom: 140px;}
+#content .faq .group{padding-bottom: 26px; border-bottom: 2px solid var(--color-point2); display: flex; justify-content: space-between; align-items: center;}
+#content .faq .group h3{font-size: var(--font-32-size); color: var(--color-point2); line-height: 1; font-weight: 500;}
+#content .faq .all{font-size: var(--font-14-size); color: var(--color-font2); line-height: 1;}
+#content .faq li{border-bottom: 1px solid var(--color-sub2);}
+#content .faq .q{position: relative;}
+#content .faq .trigger{font-size: var(--font-18-size); color: var(--color-font1); line-height: 1.4; padding: 34px 90px 34px 96px;}
+#content .faq .trigger strong{font-size: 1.5rem; font-weight: 600; color: var(--color-main); line-height: 1; position: absolute; left: 26px; top: 31px;}
+#content .faq .q span{color: var(--color-font3); font-size: var(--font-14-size); position: absolute; right: 30px; top: 36px;}
+#content .faq .show .trigger{color: var(--color-main); font-weight: 600;}
+#content .faq .a{background: var(--color-sub1); font-size: var(--font-16-size); color: var(--color-font2); line-height: 1.9; padding: 38px 90px 42px 96px; position: relative;}
+#content .faq .a strong{font-size: 1.5rem; font-weight: 600; color: var(--color-point3); line-height: 1; position: absolute; left: 26px; top: 35px;}
+#content .faq .a{display: none;}
+#content .contact{width: 2000px; position: relative; left: 50%; transform: translateX(-50%); background: var(--color-sub1); border-top: 1px solid var(--color-sub2); padding: 110px 0 130px 0;}
+#content .contact .inner{width: 800px; margin: 0 auto;}
+#content .contact h3{font-size: var(--font-32-size); font-weight: 500; color: var(--color-point2); text-align: center; line-height: 1;}
+#content .contact .lead{font-size: var(--font-16-size); color: var(--color-font2); text-align: center; line-height: 1.8; margin-top: 22px;}
+#content .contact form{margin-top: 58px;}
+#content .contact .row{display: flex; justify-content: space-between;}
+#content .contact .box{margin-bottom: 26px;}
+#content .contact .half{width: 386px;}
+#content .contact label{display: block; font-size: var(--font-14-size); font-weight: 500; color: var(--color-font1); margin-bottom: 12px;}
+#content .contact label span{color: var(--color-main); margin-left: 3px;}
+#content .contact input, #content .contact textarea{width: 758px; color: var(--color-font1); font-family: "Noto Sans KR", sans-serif; border: 1px solid var(--color-sub2); background: #fff; font-size: var(--font-16-size);}
+#content .contact input{height: 58px; padding: 0 20px;}
+#content .contact textarea{height: 200px; padding: 18px 20px; line-height: 1.8;}
+#content .contact .half input{width: 344px;}
+#content .contact input:focus, #content .contact textarea:focus{border: 1px solid var(--color-main); outline: none;}
+#content .contact button{display: block; width: 240px; height: 62px; margin: 46px auto 0 auto; background: var(--color-point2); color: #fff; font-size: var(--font-18-size); font-family: "Noto Sans KR", sans-serif; cursor: pointer; border: 0}
